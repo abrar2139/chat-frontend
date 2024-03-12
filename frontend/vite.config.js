@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "chattings-backend.vercel.app",
+				target: "https://chattings-backend.vercel.app",
 			},
 		},
 	},
